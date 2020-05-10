@@ -1,0 +1,18 @@
+controller_list:
+  - name: fake_arm_controller
+    joints:
+      - axis1
+      - axis2
+      - axis3
+      - axis4
+      - axis5
+  - name: fake_gripper_controller
+    joints:
+      - wrist
+      - leftmotjoint
+      - ljoint2
+      - ljoint3
+      - mfingjoint2
+      - mfingjoint3
+      - rjoint2
+      - rjoint3

@@ -1,0 +1,140 @@
+# MoveIt-specific simulation settings
+moveit_sim_hw_interface:
+  joint_model_group: controllers_initial_group_
+  joint_model_group_pose: controllers_initial_pose_
+# Settings for ros_control control loop
+generic_hw_control_loop:
+  loop_hz: 300
+  cycle_time_error_threshold: 0.01
+# Settings for ros_control hardware interface
+hardware_interface:
+  joints:
+    - axis1
+    - axis2
+    - axis3
+    - axis4
+    - axis5
+    - wrist
+    - leftmotjoint
+    - ljoint2
+    - ljoint3
+    - mfingjoint2
+    - mfingjoint3
+    - rjoint2
+    - rjoint3
+  sim_control_mode: 1  # 0: position, 1: velocity
+# Publish all joint states
+# Creates the /joint_states topic necessary in ROS
+joint_state_controller:
+  type: joint_state_controller/JointStateController
+  publish_rate: 50
+controller_list:
+  - name: arm_controller
+    action_ns: follow_joint_trajectory
+    default: True
+    type: FollowJointTrajectory
+    joints:
+      - axis1
+      - axis2
+      - axis3
+      - axis4
+      - axis5
+  - name: gripper_controller
+    action_ns: follow_joint_trajectory
+    default: True
+    type: FollowJointTrajectory
+    joints:
+      - wrist
+      - leftmotjoint
+      - ljoint2
+      - ljoint3
+      - mfingjoint2
+      - mfingjoint3
+      - rjoint2
+      - rjoint3
+arm_controller:
+  type: position_controllers/JointTrajectoryController
+  joints:
+    - axis1
+    - axis2
+    - axis3
+    - axis4
+    - axis5
+  gains:
+    axis1:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    axis2:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    axis3:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    axis4:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    axis5:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+gripper_controller:
+  type: effort_controllers/JointTrajectoryController
+  joints:
+    - wrist
+    - leftmotjoint
+    - ljoint2
+    - ljoint3
+    - mfingjoint2
+    - mfingjoint3
+    - rjoint2
+    - rjoint3
+  gains:
+    wrist:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    leftmotjoint:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    ljoint2:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    ljoint3:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    mfingjoint2:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    mfingjoint3:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    rjoint2:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    rjoint3:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
