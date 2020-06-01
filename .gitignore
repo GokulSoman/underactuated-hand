@@ -7,3 +7,12 @@
 !/others
 !/.gitignore
 
+
+/documents/Report/*
+!/documents/Report/report.pdf
+!/documents/Report/report.tex
+!/documents/Report/ccc
+!/documents/Report/gripper_images
+!/documents/Report/references.bib
+
+

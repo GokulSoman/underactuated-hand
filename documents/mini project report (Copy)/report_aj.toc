@@ -1,0 +1,24 @@
+\contentsline {chapter}{List of Figures}{vi}%
+\contentsline {chapter}{List of Tables}{vii}%
+\contentsline {chapter}{\numberline {1}Introduction}{1}%
+\contentsline {section}{\numberline {1.1}Three Fingered Gripper}{1}%
+\contentsline {section}{\numberline {1.2}Underactuation}{2}%
+\contentsline {section}{\numberline {1.3}Objectives}{2}%
+\contentsline {section}{\numberline {1.4}Outline of the Report}{2}%
+\contentsline {chapter}{\numberline {2}Literature Review}{4}%
+\contentsline {chapter}{\numberline {3}Mechanical Design and Modelling}{5}%
+\contentsline {section}{\numberline {3.1}Methodology}{5}%
+\contentsline {subsubsection}{Simulation Phase}{5}%
+\contentsline {subsubsection}{Fabrication Phase}{5}%
+\contentsline {section}{\numberline {3.2}Robot Specifications}{6}%
+\contentsline {section}{\numberline {3.3}System Description}{6}%
+\contentsline {chapter}{\numberline {4}Simulation Using ROS}{7}%
+\contentsline {section}{\numberline {4.1}Modelling The Robot URDF}{8}%
+\contentsline {section}{\numberline {4.2}Generating Move-It Package }{11}%
+\contentsline {subsection}{\numberline {4.2.1}Steps for generating moveit! package}{11}%
+\contentsline {section}{\numberline {4.3}Motion planning of gripper in RViz}{14}%
+\contentsline {section}{\numberline {4.4} Gripper simulation using Gazebo}{16}%
+\contentsline {subsection}{\numberline {4.4.1}Simulation in Gazebo}{16}%
+\contentsline {chapter}{\numberline {5}Simulation Results}{18}%
+\contentsline {chapter}{\numberline {6}Conclusions}{19}%
+\contentsline {chapter}{\numberline {7}References}{20}%

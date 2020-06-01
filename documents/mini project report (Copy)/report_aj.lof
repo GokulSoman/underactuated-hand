@@ -1,0 +1,16 @@
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Block diagram of RRP configured robot}}{6}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Creating URDF using URDF plugin in Solidworks}}{10}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Moveit Setup Assistant startup}}{12}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Defining Virtual Joints}}{13}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Planning groups in MoveIt}}{13}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Defining Planning Groups}}{14}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Motion planning of robot in RViz}}{15}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Launching the model in Gazebo}}{17}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Corresponding execution in Gazebo}}{17}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
